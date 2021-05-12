@@ -7,9 +7,7 @@ Vercel theme for [Slidev](https://github.com/slidevjs/slidev). Based on [Vercel'
 ![Slide demo with cover page](./example-export/01.png)
 ![Slide demo with code](./example-export/05.png)
 
-<!--
-Live demo: [...]
--->
+Live demo: [slidev-theme-geist](https://slidev-theme-geist.vercel.app)
 
 ## Install
 
