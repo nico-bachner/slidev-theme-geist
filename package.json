@@ -24,8 +24,7 @@
     "build": "slidev build example.md",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png",
-    "release": "standard-version && npm publish",
-    "prerelease": "standard-version --prerelease next && npm publish"
+    "release": "standard-version && npm publish"
   },
   "standard-version": {
     "scripts": {
