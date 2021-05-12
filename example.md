@@ -2,14 +2,12 @@
 theme: none
 ---
 
-# Slidev Theme Starter
+# Slidev Theme Geist
 
-Presentation slides for developers
+A Vercel theme for Slidev
 
 <div class="pt-12">
-  <span @click="next" class="rounded cursor-pointer p-1 px-2 hover:bg-white hover:bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
+  Press <kbd>space</kbd> to go to the next page ->
 </div>
 
 ---
@@ -26,16 +24,13 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 - 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
 - 🛠 **Hackable** - anything possible on a webpage
 
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+Read more about [why Slidev](https://sli.dev/guide/why)
 
 ---
 
 # Navigation
 
-Hover on the bottom-left corner to see the navigation's controls panel
+Hover over the bottom-left corner of your screen to see the control panel.
 
 ### Keyboard Shortcuts
 
@@ -48,17 +43,12 @@ Hover on the bottom-left corner to see the navigation's controls panel
 
 ---
 
-layout: image-right
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
-
----
-
 # Code
 
-Use `code` snippets and get the highlighting directly!
+Use `code` snippets and get automatic highlighting!
 
 ```ts
-// test
+// type
 interface User {
   id: number;
   firstName: string;
@@ -66,6 +56,7 @@ interface User {
   role: string;
 }
 
+// function
 function updateUser(id: number, update: Partial<User>) {
   const user = getUser(id);
   const newUser = { ...user, ...update };
@@ -75,11 +66,6 @@ function updateUser(id: number, update: Partial<User>) {
 
 ---
 
-layout: center
-class: "text-center"
-
----
-
 # Learn More
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+[Documentation](https://sli.dev) / [GitHub Repository](https://github.com/slidevjs/slidev)
