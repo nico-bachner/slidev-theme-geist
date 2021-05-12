@@ -1,6 +1,16 @@
 {
   "name": "slidev-theme-geist",
   "version": "0.1.0",
+  "homepage": "https://github.com/nico-bachner/slidev-theme-geist#readme",
+  "bugs": {
+    "url": "https://github.com/nico-bachner/slidev-theme-geist/issues"
+  },
+  "author": {
+    "name": "Nico Bachner",
+    "email": "yo@nicob.dev",
+    "url": "https://nicob.dev/"
+  },
+  "license": "MIT",
   "keywords": [
     "slidev-theme",
     "slidev"
