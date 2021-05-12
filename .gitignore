@@ -4,6 +4,7 @@ index.html
 .remote-assets
 
 # dependencies
+pnpm-lock.yaml
 node_modules
 
 # miscellaneous
