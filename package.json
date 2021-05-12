@@ -1,0 +1,25 @@
+{
+  "name": "slidev-theme-geist",
+  "version": "0.1.0",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "prism"
+  },
+  "scripts": {
+    "dev": "slidev example.md",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/cli": ">=0.8",
+    "@slidev/theme-default": ">=0.7"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.11.0"
+  }
+}

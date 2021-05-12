@@ -1,0 +1,11 @@
+
+dist
+index.html
+.remote-assets
+
+# dependencies
+node_modules
+
+# miscellaneous
+.DS_Store
+*.local

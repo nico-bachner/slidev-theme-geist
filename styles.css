@@ -1,0 +1,128 @@
+@import "prism-theme-vars/base.css";
+@import "codemirror-theme-vars/base.css";
+@import "prism-theme-vars/to-codemirror.css";
+@import "https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;500;600;700;800&display=swap";
+
+:root {
+  --geist-error: #e00;
+  --geist-success: #0070f3;
+  --geist-warning: #f5a623;
+  --geist-violet: #7928ca;
+  --geist-cyan: #50e3c2;
+  --geist-highlight-purple: #f81ce5;
+
+  --prism-font-family: var(--slidev-code-font-family);
+  --prism-foreground: var(--geist-foreground);
+  --prism-background: var(--geist-background);
+  --prism-keyword: var(--geist-highlight-purple);
+  --prism-function: var(--geist-success);
+  --prism-number: var(--geist-success);
+  --prism-class: var(--geist-success);
+  --prism-string: var(--geist-cyan);
+  --prism-builtin: var(--geist-cyan);
+  --prism-comment: var(--accents-4);
+
+  --geist-background: #fff;
+  --accents-1: #fafafa;
+  --accents-2: #eaeaea;
+  --accents-3: #999;
+  --accents-4: #888;
+  --accents-5: #666;
+  --accents-6: #444;
+  --accents-7: #333;
+  --accents-8: #111;
+  --geist-foreground: #000;
+}
+
+.dark {
+  --geist-background: #000;
+  --accents-1: #111;
+  --accents-2: #333;
+  --accents-3: #444;
+  --accents-4: #666;
+  --accents-5: #888;
+  --accents-6: #999;
+  --accents-7: #eaeaea;
+  --accents-8: #fafafa;
+  --geist-foreground: #fff;
+}
+
+.slidev-layout {
+  color: var(--accents-8);
+  background-color: var(--geist-background);
+  @apply px-12 py-8 h-full w-full antialiased;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--geist-foreground);
+  }
+
+  * {
+    @apply select-none;
+  }
+
+  code,
+  code * {
+    @apply select-text;
+  }
+
+  :not(pre) > code {
+    color: var(--geist-highlight-purple);
+    @apply text-sm;
+  }
+  :not(pre) > code:before,
+  :not(pre) > code:after {
+    content: "`";
+    color: var(--geist-highlight-purple);
+  }
+
+  pre {
+    padding: 1rem;
+    border: 1px;
+    border-color: var(--accents-4);
+    border-radius: 50%;
+  }
+
+  h1 {
+    @apply text-4xl font-black mt-12;
+  }
+  h2 {
+    @apply text-3xl font-extrabold mt-10;
+  }
+  h3 {
+    @apply text-2xl font-bold mt-8;
+  }
+  h4 {
+    @apply text-xl font-semibold mt-6;
+  }
+  p {
+    @apply leading-relaxed font-normal mt-4;
+  }
+
+  a {
+    color: var(--geist-success);
+  }
+
+  li {
+    @apply my-2;
+  }
+
+  td,
+  th {
+    @apply py-1 px-4;
+  }
+}
+
+.cover {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl;
+  }
+
+  h1 + p {
+    @apply text-2xl mt-2;
+  }
+}
