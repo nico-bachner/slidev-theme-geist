@@ -16,6 +16,11 @@
     "screenshot": "slidev export example.md --format png",
     "release": "standard-version && npm publish"
   },
+  "standard-version": {
+    "scripts": {
+      "prerelease": "slidev export example.md --format png && git add example-export/"
+    }
+  },
   "dependencies": {
     "@slidev/cli": ">=0.8",
     "@slidev/theme-default": ">=0.7"
