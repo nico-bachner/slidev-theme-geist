@@ -13,13 +13,15 @@
     "dev": "slidev example.md",
     "build": "slidev build example.md",
     "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+    "screenshot": "slidev export example.md --format png",
+    "release": "standard-version && npm publish"
   },
   "dependencies": {
     "@slidev/cli": ">=0.8",
     "@slidev/theme-default": ">=0.7"
   },
   "devDependencies": {
-    "playwright-chromium": "^1.11.0"
+    "playwright-chromium": ">=1.11",
+    "standard-version": ">=9.3"
   }
 }
