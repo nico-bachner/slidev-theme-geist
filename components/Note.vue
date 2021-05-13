@@ -1,0 +1,15 @@
+<template>
+  <div class="note text-sm">
+    <strong>Note: </strong>
+    <slot />
+  </div>
+</template>
+
+<style>
+.note {
+  border: 0.5px solid var(--accents-2);
+  border-radius: var(--geist-radius);
+  max-width: max-content;
+  padding: 3px 12px;
+}
+</style>
