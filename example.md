@@ -24,7 +24,7 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 - 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
 - 🛠 **Hackable** - anything possible on a webpage
 
-Read more about [why Slidev](https://sli.dev/guide/why)
+Read more about [Slidev](https://sli.dev)
 
 ---
 
@@ -63,6 +63,14 @@ function updateUser(id: number, update: Partial<User>) {
   saveUser(id, newUser);
 }
 ```
+
+---
+
+# Theme Components
+
+<Button>Button</Button>
+
+<Note>Note</Note>
 
 ---
 

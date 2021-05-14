@@ -31,7 +31,8 @@ This theme provides the following layouts:
 
 This theme provides the following components:
 
-(will probably come in later releases)
+- [Button](https://vercel.com/design/button)
+- [Note](https://vercel.com/design/note)
 
 ## Contributing
 

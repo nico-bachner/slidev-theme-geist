@@ -3,7 +3,7 @@
 @import "prism-theme-vars/to-codemirror.css";
 @import "https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;500;600;700;800&display=swap";
 
-:root {
+html {
   --geist-error: #e00;
   --geist-success: #0070f3;
   --geist-warning: #f5a623;
@@ -14,28 +14,16 @@
 
   --geist-radius: 5px;
 
+  --geist-gap-quarter: 6px;
+  --geist-gap-half: 12px;
   --geist-gap: 24px;
-  --geist-gap-quarter: calc(var(--geist-gap) / 4);
-  --geist-gap-half: calc(var(--geist-gap) / 2);
-  --geist-gap-double: calc(var(--geist-gap) * 2);
+  --geist-gap-double: 48px;
 
-  --prism-font-family: var(--slidev-code-font-family);
-  --prism-foreground: var(--geist-foreground);
-  --prism-background: var(--geist-background);
-  --prism-keyword: var(--geist-highlight-purple);
-  --prism-function: var(--geist-success);
-  --prism-number: var(--geist-success);
-  --prism-class: var(--geist-success);
-  --prism-string: var(--geist-cyan);
-  --prism-builtin: var(--geist-cyan);
-  --prism-comment: var(--accents-4);
+  color: var(--geist-foreground);
+  background-color: var(--geist-background);
+  @apply antialiased;
 }
-
-::selection {
-  background-color: var(--geist-cyan-light);
-}
-
-html {
+html.light {
   --geist-background: #fff;
   --accents-1: #fafafa;
   --accents-2: #eaeaea;
@@ -60,23 +48,71 @@ html.dark {
   --geist-foreground: #fff;
 }
 
-.slidev-layout {
-  color: var(--accents-8);
-  background-color: var(--geist-background);
-  @apply px-12 py-8 h-full w-full antialiased;
+/* prism styles */
+:root {
+  --prism-font-family: var(--slidev-code-font-family);
+  --prism-block-radius: var(--geist-radius);
+  --prism-foreground: var(--geist-foreground);
+  --prism-background: var(--geist-background);
+  --prism-keyword: var(--geist-highlight-purple);
+  --prism-function: var(--geist-success);
+  --prism-number: var(--geist-success);
+  --prism-class: var(--geist-success);
+  --prism-string: var(--geist-cyan);
+  --prism-builtin: var(--geist-cyan);
+  --prism-comment: var(--accents-4);
 }
 
-h1,
-h2,
-h3,
+::selection {
+  color: var(--geist-foreground);
+  background-color: var(--geist-cyan-light);
+}
+
+#slide-content {
+  color: var(--accents-6);
+  background-color: var(--geist-background);
+  padding: 2rem 3rem;
+  height: 100%;
+}
+
+h1 {
+  color: var(--geist-foreground);
+  font-weight: 800;
+  margin: 3rem 0 1rem;
+  @apply text-4xl;
+}
+h2 {
+  color: var(--geist-foreground);
+  font-weight: 700;
+  margin: 2.5rem 0 1rem;
+  @apply text-3xl;
+}
+h3 {
+  color: var(--geist-foreground);
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  @apply text-2xl;
+}
 h4 {
   color: var(--geist-foreground);
+  font-weight: 500;
+  margin: 1.5rem 0 1rem;
+  @apply text-xl;
+}
+p {
+  margin: 1rem 0;
+  @apply leading-relaxed;
+}
+strong {
+  color: var(--accents-7);
+}
+a {
+  color: var(--geist-success);
 }
 
 * {
   @apply select-none;
 }
-
 code,
 code * {
   @apply select-text;
@@ -93,30 +129,7 @@ code * {
 }
 
 pre {
-  padding: 1rem 2rem;
-  border: 1px solid;
-  border-color: var(--accents-2);
-  border-radius: var(--geist-radius);
-}
-
-h1 {
-  @apply text-4xl font-black mt-12;
-}
-h2 {
-  @apply text-3xl font-extrabold mt-10;
-}
-h3 {
-  @apply text-2xl font-bold mt-8;
-}
-h4 {
-  @apply text-xl font-semibold mt-6;
-}
-p {
-  @apply leading-relaxed font-normal mt-4;
-}
-
-a {
-  color: var(--geist-success);
+  border: 1px solid var(--accents-2);
 }
 
 kbd {
@@ -171,16 +184,4 @@ td {
 }
 tr:not(:last-of-type) td {
   border-bottom: 1px solid var(--accents-2);
-}
-
-.cover {
-  @apply h-full grid;
-
-  h1 {
-    @apply text-6xl;
-  }
-
-  h1 + p {
-    @apply text-2xl mt-2;
-  }
 }
