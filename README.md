@@ -4,10 +4,10 @@
 
 Vercel theme for [Slidev](https://github.com/slidevjs/slidev). Based on [Vercel's design system](https://vercel.com/design)
 
-![Slide demo with cover page](./example-export/01.png)
-![Slide demo with code](./example-export/04.png)
+## Demo
 
-Live demo: [slidev-theme-geist](https://slidev-theme-geist.vercel.app)
+- [Live Demo](https://slidev-theme-geist.vercel.app)
+- [Screenshots](#screenshots)
 
 ## Install
 
@@ -19,17 +19,17 @@ theme: geist
 ---
 ```
 
-Learn more about [using a theme](https://sli.dev/themes/use).
+Learn more about using a theme in the [slidev themes documentation](https://sli.dev/themes/use).
 
 ## Layouts
 
-This theme provides the following layouts:
+The following layouts are provided by the theme:
 
 (will probably come in later releases)
 
 ## Components
 
-This theme provides the following components:
+The geist theme provides the following components:
 
 - [Button](https://vercel.com/design/button)
 - [Note](https://vercel.com/design/note)
@@ -42,3 +42,11 @@ This theme provides the following components:
 4. Edit `example.md` and style to see changes
 5. `npm run export` to generate the preview PDF
 6. `npm run screenshot` to generate the preview PNG
+
+## Screenshots
+
+![Slide demo with cover page](./example-export/01.png)
+![Slide demo with list](./example-export/02.png)
+![Slide demo with table](./example-export/03.png)
+![Slide demo with code](./example-export/04.png)
+![Slide demo with geist components ](./example-export/05.png)
