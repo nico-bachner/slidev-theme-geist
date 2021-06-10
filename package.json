@@ -27,11 +27,11 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "@slidev/cli": ">=0.9",
-    "@slidev/theme-default": ">=0.7"
+    "@slidev/cli": "^0.20.1",
+    "@slidev/theme-default": "^0.19.1"
   },
   "devDependencies": {
-    "playwright-chromium": ">=1.11",
-    "standard-version": ">=9.3"
+    "playwright-chromium": "^1.12.1",
+    "standard-version": "^9.3.0"
   }
 }
