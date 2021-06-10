@@ -1,15 +1,16 @@
 <template>
-  <div class="note text-sm">
-    <strong>Note: </strong>
+  <div class="note">
+    <strong>Note:</strong>
     <slot />
   </div>
 </template>
 
-<style>
+<style scoped>
 .note {
   border: 0.5px solid var(--accents-2);
   border-radius: var(--geist-radius);
   max-width: max-content;
   padding: 3px 12px;
+  @apply text-sm;
 }
 </style>
