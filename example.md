@@ -6,8 +6,8 @@ theme: none
 
 A Vercel theme for Slidev
 
-<div class="pt-12">
-  Press <kbd>space</kbd> to go to the next page ->
+<div class="pt-24">
+  Press <KBD command>space</KBD> to go to the next page ->
 </div>
 
 ---
@@ -36,10 +36,10 @@ Hover over the bottom-left corner of your screen to see the control panel.
 
 | shortcut                                             | purpose                     |
 | ---------------------------------------------------- | --------------------------- |
-| <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide     |
-| <kbd>left</kbd>                                      | previous animation or slide |
-| <kbd>up</kbd>                                        | previous slide              |
-| <kbd>down</kbd>                                      | next slide                  |
+| <KBD>space</KBD> / <KBD>tab</KBD> / <KBD>right</KBD> | next animation or slide     |
+| <KBD>left</KBD>                                      | previous animation or slide |
+| <KBD>up</KBD>                                        | previous slide              |
+| <KBD>down</KBD>                                      | next slide                  |
 
 ---
 
@@ -69,6 +69,8 @@ function updateUser(id: number, update: Partial<User>) {
 # Theme Components
 
 <Button>Button</Button>
+
+<KBD>Keyboard Input</KBD>
 
 <Note>Note</Note>
 

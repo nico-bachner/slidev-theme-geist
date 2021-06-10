@@ -1,7 +1,7 @@
 @import "prism-theme-vars/base.css";
 @import "codemirror-theme-vars/base.css";
 @import "prism-theme-vars/to-codemirror.css";
-@import "https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;500;600;700;800&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@300;400;500;600;700;800&display=swap";
 
 html {
   --geist-error: #e00;
@@ -130,13 +130,6 @@ code * {
 
 pre {
   border: 1px solid var(--accents-2);
-}
-
-kbd {
-  background-color: var(--accents-1);
-  padding: 0.1rem 0.3rem;
-  border: 1px solid var(--accents-2);
-  border-radius: var(--geist-radius);
 }
 
 li {
