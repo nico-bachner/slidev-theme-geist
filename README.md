@@ -32,6 +32,7 @@ The following layouts are provided by the theme:
 The geist theme provides the following components:
 
 - [Button](https://vercel.com/design/button)
+- [Keyboard Input](https://vercel.com/design/keyboard-input)
 - [Note](https://vercel.com/design/note)
 
 ## Contributing

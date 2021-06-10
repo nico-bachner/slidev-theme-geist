@@ -17,7 +17,7 @@ A Vercel theme for Slidev
 Slidev is a slides maker and presenter designed for developers, consist of the following features
 
 - 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
+- 🎨 **Themeable** - theme can be shared and used with npm packages
 - 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
 - 🤹 **Interactive** - embedding Vue components to enhance your expressions
 - 🎥 **Recording** - built-in recording and camera view
@@ -68,9 +68,15 @@ function updateUser(id: number, update: Partial<User>) {
 
 # Theme Components
 
+## Button
+
 <Button>Button</Button>
 
+## Keyboard Input
+
 <KBD>Keyboard Input</KBD>
+
+## Note
 
 <Note>Note</Note>
 
