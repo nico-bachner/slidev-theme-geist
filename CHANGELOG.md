@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/nico-bachner/slidev-theme-geist/compare/v0.4.0...v0.5.0) (2021-06-11)
+
+
+### Features
+
+* **components:** added KBD (keyboard) component ([8c461f3](https://github.com/nico-bachner/slidev-theme-geist/commit/8c461f35923fac8a6142040a8af36acfac798aa2))
+
+
+### Bug Fixes
+
+* **components:** add scoped styles for Note ([51d4573](https://github.com/nico-bachner/slidev-theme-geist/commit/51d457376a92a9a07c7ced6a735d73f3870e15a0))
+* **components:** fix styling for kbd component ([902ff01](https://github.com/nico-bachner/slidev-theme-geist/commit/902ff01814fc37128b8ba27f6bc649815a6476f6))
+* **components:** fix styling for Note component ([aded0fd](https://github.com/nico-bachner/slidev-theme-geist/commit/aded0fd0d50f288553b0e1df77ff1aff45e215f2))
+
 ## 0.4.0 (2021-05-14)
 
 
