@@ -27,7 +27,7 @@ export default {
         <span v-if="shift">⇧</span>
         <span v-if="option">⌥</span>
         <span v-if="control">⌃</span>
-        <span>
+        <span class="kbd-text">
             <slot />
         </span>
     </kbd>
@@ -35,14 +35,14 @@ export default {
 
 <style scoped>
 kbd {
+    font-family: "Inter", sans-serif;
     background-color: var(--accents-1);
-    padding: 0.15rem;
+    padding: 0.125rem 0.25rem;
     border: 1px solid var(--accents-2);
     border-radius: var(--geist-radius);
     @apply text-sm tracking-tight;
 }
-
-span {
-    margin: 0 0.2rem;
+kbd > span:nth-child(n + 2) {
+    padding-left: 0.5rem;
 }
 </style>
