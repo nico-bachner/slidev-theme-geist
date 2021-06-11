@@ -7,7 +7,7 @@ theme: none
 A Vercel theme for Slidev
 
 <div class="pt-24">
-  Press <KBD command>space</KBD> to go to the next page ->
+  Press <KBD>space</KBD> to go to the next page ->
 </div>
 
 ---
@@ -74,7 +74,7 @@ function updateUser(id: number, update: Partial<User>) {
 
 ## Keyboard Input
 
-<KBD>Keyboard Input</KBD>
+<KBD command shift>P</KBD>
 
 ## Note
 

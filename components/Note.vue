@@ -13,4 +13,7 @@
   padding: 3px 12px;
   @apply text-sm;
 }
+.note > strong {
+  margin-right: 0.5rem;
+}
 </style>
