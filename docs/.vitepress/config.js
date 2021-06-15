@@ -20,7 +20,6 @@ module.exports = {
             },
         ],
         sidebar: [
-            { text: "Home", link: "/README" },
             {
                 text: "Introduction",
                 children: [

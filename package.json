@@ -16,6 +16,7 @@
         "slidev"
     ],
     "engines": {
+        "node": ">=14",
         "slidev": ">=0.20"
     },
     "slidev": {
