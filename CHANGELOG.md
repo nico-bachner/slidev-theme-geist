@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/nico-bachner/slidev-theme-geist/compare/v0.5.0...v0.6.0) (2021-06-15)
+
+
+### Features
+
+* added docs ([ddfbd67](https://github.com/nico-bachner/slidev-theme-geist/commit/ddfbd67e921301eb62fd7f96dbcf4014dd6edb62))
+* **layouts:** added split layout ([2eaae43](https://github.com/nico-bachner/slidev-theme-geist/commit/2eaae435343255d6761bbb451253d03a8649faa7))
+
+
+### Bug Fixes
+
+* **docs:** fixed build errors ([0ecce3c](https://github.com/nico-bachner/slidev-theme-geist/commit/0ecce3cf882c01f8d6b2bfc1b67b51dd9b6baa3b))
+
 ## [0.5.0](https://github.com/nico-bachner/slidev-theme-geist/compare/v0.4.0...v0.5.0) (2021-06-11)
 
 ### Features
