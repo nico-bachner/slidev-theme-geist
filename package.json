@@ -1,39 +1,48 @@
 {
-  "name": "slidev-theme-geist",
-  "version": "0.5.0",
-  "homepage": "https://github.com/nico-bachner/slidev-theme-geist#readme",
-  "bugs": {
-    "url": "https://github.com/nico-bachner/slidev-theme-geist/issues"
-  },
-  "author": {
-    "name": "Nico Bachner",
-    "email": "yo@nicob.dev",
-    "url": "https://nicob.dev/"
-  },
-  "license": "MIT",
-  "keywords": [
-    "slidev-theme",
-    "slidev"
-  ],
-  "slidev": {
-    "colorSchema": "both",
-    "highlighter": "prism"
-  },
-  "scripts": {
-    "dev": "slidev example.md",
-    "build": "slidev build example.md",
-    "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png",
-    "format": "prettier --write .",
-    "release": "standard-version"
-  },
-  "dependencies": {
-    "@slidev/cli": "^0.20.1",
-    "@slidev/theme-default": "^0.19.1"
-  },
-  "devDependencies": {
-    "playwright-chromium": "^1.12.1",
-    "prettier": "^2.3.1",
-    "standard-version": "^9.3.0"
-  }
+    "name": "slidev-theme-geist",
+    "version": "0.5.0",
+    "homepage": "https://github.com/nico-bachner/slidev-theme-geist#readme",
+    "bugs": {
+        "url": "https://github.com/nico-bachner/slidev-theme-geist/issues"
+    },
+    "author": {
+        "name": "Nico Bachner",
+        "email": "yo@nicob.dev",
+        "url": "https://nicob.dev/"
+    },
+    "license": "MIT",
+    "keywords": [
+        "slidev-theme",
+        "slidev"
+    ],
+    "engines": {
+        "slidev": ">=0.20"
+    },
+    "slidev": {
+        "colorSchema": "both",
+        "highlighter": "prism",
+        "default": {
+            "fonts": {
+                "sans": "Inter",
+                "mono": "Fira Code"
+            }
+        }
+    },
+    "scripts": {
+        "dev": "slidev example.md",
+        "build": "slidev build example.md",
+        "export": "slidev export example.md",
+        "screenshot": "slidev export example.md --format png",
+        "format": "prettier --write components/*.vue layouts/* styles.css",
+        "release": "standard-version"
+    },
+    "dependencies": {
+        "@slidev/cli": "^0.20",
+        "@slidev/theme-default": "^0.19"
+    },
+    "devDependencies": {
+        "playwright-chromium": "^1.12",
+        "prettier": "^2.3",
+        "standard-version": "^9.3"
+    }
 }
