@@ -8,7 +8,7 @@ module.exports = {
         nav: [
             {
                 text: "Demo",
-                link: "https://slidev-theme-geist.vercel.app",
+                link: "https://slidev-theme-geist-demo.vercel.app",
             },
             {
                 text: "Contributing",

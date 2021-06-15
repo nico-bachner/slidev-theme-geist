@@ -4,7 +4,7 @@
 
 Vercel theme for [Slidev](https://github.com/slidevjs/slidev). Based on [Vercel's design system](https://vercel.com/design)
 
-[Documentation](https://slidev-theme-geist-docs.vercel.app) | [Contribution Guide](CONTRIBUTING.md)
+[Demo](https://slidev-theme-geist-demo.vercel.app) | [Documentation](https://slidev-theme-geist-docs.vercel.app) | [Contribution Guide](CONTRIBUTING.md)
 
 ## Screenshots
 
