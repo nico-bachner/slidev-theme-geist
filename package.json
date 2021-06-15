@@ -19,7 +19,6 @@
         "slidev": ">=0.20"
     },
     "slidev": {
-        "colorSchema": "both",
         "highlighter": "prism",
         "default": {
             "fonts": {
@@ -33,6 +32,8 @@
         "build": "slidev build example.md",
         "export": "slidev export example.md",
         "screenshot": "slidev export example.md --format png",
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
         "format": "prettier --write components/*.vue layouts/* styles.css",
         "release": "standard-version"
     },
@@ -43,6 +44,7 @@
     "devDependencies": {
         "playwright-chromium": "^1.12",
         "prettier": "^2.3",
-        "standard-version": "^9.3"
+        "standard-version": "^9.3",
+        "vitepress": "^0.15"
     }
 }
