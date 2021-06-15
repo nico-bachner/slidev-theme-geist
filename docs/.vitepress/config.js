@@ -27,14 +27,14 @@ module.exports = {
                 ],
             },
             {
-                text: "Inbuilts",
+                text: "Built-ins",
                 children: [
                     {
                         text: "Default Configuration",
-                        link: "/inbuilts/default-configuration",
+                        link: "/built-ins/default-configuration",
                     },
-                    { text: "Components", link: "/inbuilts/components" },
-                    { text: "Layouts", link: "/inbuilts/layouts" },
+                    { text: "Components", link: "/built-ins/components" },
+                    { text: "Layouts", link: "/built-ins/layouts" },
                 ],
             },
         ],
