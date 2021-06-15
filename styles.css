@@ -1,184 +1,183 @@
 @import "prism-theme-vars/base.css";
 @import "codemirror-theme-vars/base.css";
 @import "prism-theme-vars/to-codemirror.css";
-@import "https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@300;400;500;600;700;800&display=swap";
 
 html {
-  --geist-error: #e00;
-  --geist-success: #0070f3;
-  --geist-warning: #f5a623;
-  --geist-violet: #7928ca;
-  --geist-cyan-light: #79ffe1;
-  --geist-cyan: #50e3c2;
-  --geist-highlight-purple: #f81ce5;
+    --geist-error: #e00;
+    --geist-success: #0070f3;
+    --geist-warning: #f5a623;
+    --geist-violet: #7928ca;
+    --geist-cyan-light: #79ffe1;
+    --geist-cyan: #50e3c2;
+    --geist-highlight-purple: #f81ce5;
 
-  --geist-radius: 5px;
+    --geist-radius: 5px;
 
-  --geist-gap-quarter: 6px;
-  --geist-gap-half: 12px;
-  --geist-gap: 24px;
-  --geist-gap-double: 48px;
+    --geist-gap-quarter: 6px;
+    --geist-gap-half: 12px;
+    --geist-gap: 24px;
+    --geist-gap-double: 48px;
 
-  color: var(--geist-foreground);
-  background-color: var(--geist-background);
-  @apply antialiased;
-  font-family: "Inter", sans-serif;
+    color: var(--geist-foreground);
+    background-color: var(--geist-background);
+    @apply antialiased;
+    font-family: "Inter", sans-serif;
 }
 html.light {
-  --geist-background: #fff;
-  --accents-1: #fafafa;
-  --accents-2: #eaeaea;
-  --accents-3: #999;
-  --accents-4: #888;
-  --accents-5: #666;
-  --accents-6: #444;
-  --accents-7: #333;
-  --accents-8: #111;
-  --geist-foreground: #000;
+    --geist-background: #fff;
+    --accents-1: #fafafa;
+    --accents-2: #eaeaea;
+    --accents-3: #999;
+    --accents-4: #888;
+    --accents-5: #666;
+    --accents-6: #444;
+    --accents-7: #333;
+    --accents-8: #111;
+    --geist-foreground: #000;
 }
 html.dark {
-  --geist-background: #000;
-  --accents-1: #111;
-  --accents-2: #333;
-  --accents-3: #444;
-  --accents-4: #666;
-  --accents-5: #888;
-  --accents-6: #999;
-  --accents-7: #eaeaea;
-  --accents-8: #fafafa;
-  --geist-foreground: #fff;
+    --geist-background: #000;
+    --accents-1: #111;
+    --accents-2: #333;
+    --accents-3: #444;
+    --accents-4: #666;
+    --accents-5: #888;
+    --accents-6: #999;
+    --accents-7: #eaeaea;
+    --accents-8: #fafafa;
+    --geist-foreground: #fff;
 }
 
 /* prism styles */
 :root {
-  --prism-font-family: var(--slidev-code-font-family);
-  --prism-block-radius: var(--geist-radius);
-  --prism-foreground: var(--geist-foreground);
-  --prism-background: var(--geist-background);
-  --prism-keyword: var(--geist-highlight-purple);
-  --prism-function: var(--geist-success);
-  --prism-number: var(--geist-success);
-  --prism-class: var(--geist-success);
-  --prism-string: var(--geist-cyan);
-  --prism-builtin: var(--geist-cyan);
-  --prism-comment: var(--accents-4);
+    --prism-font-family: var(--slidev-code-font-family);
+    --prism-block-radius: var(--geist-radius);
+    --prism-foreground: var(--geist-foreground);
+    --prism-background: var(--geist-background);
+    --prism-keyword: var(--geist-highlight-purple);
+    --prism-function: var(--geist-success);
+    --prism-number: var(--geist-success);
+    --prism-class: var(--geist-success);
+    --prism-string: var(--geist-cyan);
+    --prism-builtin: var(--geist-cyan);
+    --prism-comment: var(--accents-4);
 }
 
 ::selection {
-  color: var(--geist-foreground);
-  background-color: var(--geist-cyan-light);
+    color: var(--geist-foreground);
+    background-color: var(--geist-cyan-light);
 }
 
 #slide-content {
-  color: var(--accents-6);
-  background-color: var(--geist-background);
-  padding: 2rem 3rem;
-  height: 100%;
+    color: var(--accents-6);
+    background-color: var(--geist-background);
+    padding: 2rem 3rem;
+    height: 100%;
 }
 
 h1 {
-  color: var(--geist-foreground);
-  font-weight: 800;
-  margin: 3rem 0 1rem;
-  @apply text-4xl;
+    color: var(--geist-foreground);
+    font-weight: 800;
+    margin: 3rem 0 1rem;
+    @apply text-4xl;
 }
 h2 {
-  color: var(--geist-foreground);
-  font-weight: 700;
-  margin: 2.5rem 0 1rem;
-  @apply text-3xl;
+    color: var(--geist-foreground);
+    font-weight: 700;
+    margin: 2.5rem 0 1rem;
+    @apply text-3xl;
 }
 h3 {
-  color: var(--geist-foreground);
-  font-weight: 600;
-  margin: 2rem 0 1rem;
-  @apply text-2xl;
+    color: var(--geist-foreground);
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+    @apply text-2xl;
 }
 h4 {
-  color: var(--geist-foreground);
-  font-weight: 500;
-  margin: 1.5rem 0 1rem;
-  @apply text-xl;
+    color: var(--geist-foreground);
+    font-weight: 500;
+    margin: 1.5rem 0 1rem;
+    @apply text-xl;
 }
 p {
-  margin: 1rem 0;
-  @apply leading-relaxed;
+    margin: 1rem 0;
+    @apply leading-relaxed;
 }
 strong {
-  color: var(--accents-7);
+    color: var(--accents-7);
 }
 a {
-  color: var(--geist-success);
+    color: var(--geist-success);
 }
 
 * {
-  @apply select-none;
+    @apply select-none;
 }
 code,
 code * {
-  @apply select-text;
+    @apply select-text;
 }
 code {
-  font-family: "Fira Code", monospace;
+    font-family: "Fira Code", monospace;
 }
 
 :not(pre) > code {
-  color: var(--geist-highlight-purple);
-  @apply text-sm;
+    color: var(--geist-highlight-purple);
+    @apply text-sm;
 }
 :not(pre) > code:before,
 :not(pre) > code:after {
-  content: "`";
-  color: var(--geist-highlight-purple);
+    content: "`";
+    color: var(--geist-highlight-purple);
 }
 
 pre {
-  border: 1px solid var(--accents-2);
+    border: 1px solid var(--accents-2);
 }
 
 li {
-  @apply my-2;
+    @apply my-2;
 }
 
 table {
-  border-collapse: separate;
-  border-spacing: 0;
-  width: 100%;
-  @apply my-4;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    @apply my-4;
 }
 tr {
-  height: var(--geist-gap-double);
+    height: var(--geist-gap-double);
 }
 th,
 td {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 thead > tr {
-  height: 40px;
+    height: 40px;
 }
 th {
-  font-size: 0.75rem;
-  font-weight: 400;
-  text-align: left;
-  text-transform: uppercase;
-  color: var(--accents-5);
-  background: var(--accents-1);
-  padding: 0 var(--geist-gap-half);
-  border-top: 1px solid var(--accents-2);
-  border-bottom: 1px solid var(--accents-2);
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--accents-5);
+    background: var(--accents-1);
+    padding: 0 var(--geist-gap-half);
+    border-top: 1px solid var(--accents-2);
+    border-bottom: 1px solid var(--accents-2);
 }
 th:first-child {
-  border-left: 1px solid var(--accents-2);
-  border-radius: var(--geist-radius) 0 0 var(--geist-radius);
+    border-left: 1px solid var(--accents-2);
+    border-radius: var(--geist-radius) 0 0 var(--geist-radius);
 }
 th:last-child {
-  border-right: 1px solid var(--accents-2);
-  border-radius: 0 var(--geist-radius) var(--geist-radius) 0;
+    border-right: 1px solid var(--accents-2);
+    border-radius: 0 var(--geist-radius) var(--geist-radius) 0;
 }
 td {
-  color: var(--accents-6);
-  padding: var(--geist-gap-quarter) var(--geist-gap-half);
+    color: var(--accents-6);
+    padding: var(--geist-gap-quarter) var(--geist-gap-half);
 }
 tr:not(:last-of-type) td {
-  border-bottom: 1px solid var(--accents-2);
+    border-bottom: 1px solid var(--accents-2);
 }

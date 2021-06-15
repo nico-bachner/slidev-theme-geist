@@ -1,5 +1,5 @@
 ---
-theme: none
+theme: ./
 ---
 
 # Slidev Theme Geist
@@ -16,13 +16,13 @@ A Vercel theme for Slidev
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themeable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+-   📝 **Text-based** - focus on the content with Markdown, and then style them later
+-   🎨 **Themeable** - theme can be shared and used with npm packages
+-   🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
+-   🤹 **Interactive** - embedding Vue components to enhance your expressions
+-   🎥 **Recording** - built-in recording and camera view
+-   📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
+-   🛠 **Hackable** - anything possible on a webpage
 
 Read more about [Slidev](https://sli.dev)
 
@@ -50,17 +50,17 @@ Use `code` snippets and get automatic highlighting!
 ```ts
 // type
 interface User {
-  id: number;
-  firstName: string;
-  lastName: string;
-  role: string;
+    id: number;
+    firstName: string;
+    lastName: string;
+    role: string;
 }
 
 // function
 function updateUser(id: number, update: Partial<User>) {
-  const user = getUser(id);
-  const newUser = { ...user, ...update };
-  saveUser(id, newUser);
+    const user = getUser(id);
+    const newUser = { ...user, ...update };
+    saveUser(id, newUser);
 }
 ```
 
