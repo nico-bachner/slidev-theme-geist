@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.0](https://github.com/nico-bachner/slidev-theme-geist/compare/v0.6.0...v0.8.0) (2022-02-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* update slidev engine
+
+### Bug Fixes
+
+* update slidev engine ([309f8dd](https://github.com/nico-bachner/slidev-theme-geist/commit/309f8dd9b0655d24f895382327f9614cf3535cbf))
+
 ## [0.6.0](https://github.com/nico-bachner/slidev-theme-geist/compare/v0.5.0...v0.6.0) (2021-06-15)
 
 
