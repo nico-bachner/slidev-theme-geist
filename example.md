@@ -4,7 +4,7 @@ theme: ./
 
 # Slidev Theme Geist
 
-A Vercel theme for Slidev
+The Vercel theme for Slidev
 
 <div class="pt-24">
   Press <KBD>space</KBD> to go to the next page ->

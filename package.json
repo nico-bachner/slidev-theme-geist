@@ -1,6 +1,6 @@
 {
     "name": "slidev-theme-geist",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "homepage": "https://github.com/nico-bachner/slidev-theme-geist#readme",
     "bugs": {
         "url": "https://github.com/nico-bachner/slidev-theme-geist/issues"
@@ -20,12 +20,15 @@
         "slidev": ">=0.20"
     },
     "slidev": {
-        "highlighter": "prism",
+        "aspectRatio": "16/9",
+        "colorSchema": "both",
+        "highlighter": "all",
         "default": {
             "fonts": {
                 "sans": "Inter",
-                "mono": "Fira Code"
-            }
+                "mono": "Menlo"
+            },
+            "highlighter": "prism"
         }
     },
     "scripts": {
@@ -39,13 +42,15 @@
         "release": "standard-version"
     },
     "dependencies": {
-        "@slidev/cli": "^0.20",
-        "@slidev/theme-default": "^0.19"
+        "@slidev/types": "^0.28.9",
+        "codemirror-theme-vars": "^0.1.1",
+        "prism-theme-vars": "^0.2.2"
     },
     "devDependencies": {
-        "playwright-chromium": "^1.12",
-        "prettier": "^2.3",
-        "standard-version": "^9.3",
-        "vitepress": "^0.15"
+        "@slidev/cli": "^0.28.9",
+        "playwright-chromium": "^1.19.2",
+        "prettier": "^2.5.1",
+        "standard-version": "^9.3.2",
+        "vitepress": "^0.22.3"
     }
 }

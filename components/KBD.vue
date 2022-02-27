@@ -35,7 +35,7 @@ export default {
 
 <style scoped>
 kbd {
-    font-family: "Inter", sans-serif;
+    font-family: inherit;
     background-color: var(--accents-1);
     padding: 0.125rem 0.25rem;
     border: 1px solid var(--accents-2);
