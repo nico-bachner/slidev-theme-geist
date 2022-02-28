@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.1](https://github.com/nico-bachner/slidev-theme-geist/compare/v0.8.0...v0.8.1) (2022-02-28)
+
+
+### Features
+
+* experimental support for shiki ([965172b](https://github.com/nico-bachner/slidev-theme-geist/commit/965172b7eddc7613a8d0759917f9ab6723eeb6f7))
+
 ## [0.8.0](https://github.com/nico-bachner/slidev-theme-geist/compare/v0.6.0...v0.8.0) (2022-02-27)
 
 
