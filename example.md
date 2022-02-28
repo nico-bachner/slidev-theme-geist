@@ -1,5 +1,6 @@
 ---
 theme: ./
+highlighter: shiki
 ---
 
 # Slidev Theme Geist

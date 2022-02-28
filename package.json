@@ -28,7 +28,7 @@
                 "sans": "Inter",
                 "mono": "Menlo"
             },
-            "highlighter": "prism"
+            "highlighter": "shiki"
         }
     },
     "scripts": {
